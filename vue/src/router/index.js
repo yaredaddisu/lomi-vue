@@ -313,14 +313,7 @@ component: () => import("@/views/Help.vue"),
   component: () => import("@/views/HelpView.vue"),
 },
  ////
-  {
-    meta: {
-      title: "Forms",
-    },
-    path: "/forms",
-    name: "forms",
-    component: () => import("@/views/FormsView.vue"),
-  },
+  
  
   {
     meta: {
@@ -373,15 +366,7 @@ component: () => import("@/views/Help.vue"),
         component: () => import("@/views/password/Token.vue"),
     
       },
-        {
-        meta: {
-          title: "UserPaymentUpdate",
-        },
-        path: "/payment-update/:id",
-        name: "payment-update",
-        component: () => import("@/views/password/UserPaymentUpdate.vue"),
-    
-      },
+        
     ]
   },
  
